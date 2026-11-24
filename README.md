@@ -18,9 +18,10 @@ Turn a long YouTube live stream into vertical Shorts (9:16), on a CPU and withou
 - Python packages:
 
 ```bash
-pip install yt-dlp
-pip install demucs   # only needed for --no-voice
+pip install -r requirements.txt
 ```
+
+`demucs` (and its PyTorch dependency) is only needed for `--no-voice`. To skip it, run `pip install yt-dlp` alone.
 
 Burned-in captions use the `Nirmala UI` font (Windows) so Devanagari text renders. On other platforms, change `FontName` in `render()`.
 

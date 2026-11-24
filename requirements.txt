@@ -1,0 +1,2 @@
+yt-dlp
+demucs  # only needed for --no-voice
