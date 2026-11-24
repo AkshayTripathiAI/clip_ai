@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Generated output and intermediate files
+clips/
+clips_novoice/
+work/
+*.mp4
+*.wav
+*.srt
+*.json3
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
